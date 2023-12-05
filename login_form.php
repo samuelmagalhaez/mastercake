@@ -33,11 +33,11 @@ if (isset($_POST["login_user_with_product"])) {
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">	
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand">Ecommerce</a>
+				<a href="#" class="navbar-brand">Mastercake</a>
 			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Início</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				
 			</ul>
 		</div>
 	</div>
@@ -56,18 +56,18 @@ if (isset($_POST["login_user_with_product"])) {
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
 				<div class="panel panel-primary">
-					<div class="panel-heading">Customer Login Form</div>
+					<div class="panel-heading">Seja bem vindo!</div>
 					<div class="panel-body">
 						<!--User Login Form-->
 						<form onsubmit="return false" id="login">
 							<label for="email">Email</label>
 							<input type="email" class="form-control" name="email" id="email" required/>
-							<label for="email">Password</label>
+							<label for="email">Senha</label>
 							<input type="password" class="form-control" name="password" id="password" required/>
 							<p><br/></p>
-							<a href="#" style="color:#333; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;" Value="Login">
+							<a href="#" style="color:#333; list-style:none;">Perdi a senha</a><input type="submit" class="btn btn-success" style="float:right;" Value="Entrar">
 							<!--If user dont have an account then he/she will click on create account button-->
-							<div><a href="customer_registration.php?register=1">Create a new account?</a></div>						
+							<div><a href="customer_registration.php?register=1">Criar nova conta</a></div>						
 						</form>
 				</div>
 				<div class="panel-footer"><div id="e_msg"></div></div>

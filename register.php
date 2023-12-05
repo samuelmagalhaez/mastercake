@@ -29,7 +29,7 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $f_name is not valid..!</b>
+				<b>esse $f_name não é válido</b>
 			</div>
 		";
 		exit();
@@ -38,7 +38,7 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $l_name is not valid..!</b>
+				<b>esse $l_name não é válido</b>
 			</div>
 		";
 		exit();
@@ -47,7 +47,7 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $email is not valid..!</b>
+				<b>esse $email não é válido.</b>
 			</div>
 		";
 		exit();
@@ -82,7 +82,7 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 		echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>Mobile number $mobile is not valid</b>
+				<b>Esse número $mobile não é válido.</b>
 			</div>
 		";
 		exit();
