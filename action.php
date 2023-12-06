@@ -227,6 +227,7 @@ if (isset($_POST["Common"])) {
 				$qty = $row["qty"];
 				echo '
 					<div class="row">
+					
 						<div class="col-md-3">'.$n.'</div>
 						<div class="col-md-3"><img class="img-responsive" src="product_images/'.$product_image.'" /></div>
 						<div class="col-md-3">'.$product_title.'</div>
