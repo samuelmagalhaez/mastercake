@@ -202,6 +202,7 @@ if (isset($_POST["count_item"])) {
 }
 //Count User cart item
 
+
 //Get Cart Item From Database to Dropdown menu
 if (isset($_POST["Common"])) {
 
@@ -227,7 +228,7 @@ if (isset($_POST["Common"])) {
 				$qty = $row["qty"];
 				echo '
 					<div class="row">
-					
+
 						<div class="col-md-3">'.$n.'</div>
 						<div class="col-md-3"><img class="img-responsive" src="product_images/'.$product_image.'" /></div>
 						<div class="col-md-3">'.$product_title.'</div>
