@@ -30,12 +30,15 @@ if(isset($_SESSION["uid"])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+
 				<a href="index.php" class="navbar-brand">Mastercake</a>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
+				
 				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Início</a></li>
 				
+
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
@@ -55,6 +58,7 @@ if(isset($_SESSION["uid"])){
 								<!--<div class="row">
 									<div class="col-md-3">Sl.No</div>
 									<div class="col-md-3">Imagem</div>
+
 									<div class="col-md-3">Sabor</div>
 									<div class="col-md-3">Preço $.</div>
 								</div>-->
@@ -145,6 +149,7 @@ if(isset($_SESSION["uid"])){
 		</div>
 	</div>
 </body>
+
 </html>
 
 
