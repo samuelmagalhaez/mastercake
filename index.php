@@ -28,6 +28,7 @@ if(isset($_SESSION["uid"])){
 					<span class="sr-only">navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
+					
 					<span class="icon-bar"></span>
 				</button>
 
@@ -35,7 +36,7 @@ if(isset($_SESSION["uid"])){
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				
+
 				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Início</a></li>
 				
 
