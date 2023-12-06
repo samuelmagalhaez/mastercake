@@ -203,6 +203,7 @@ if (isset($_POST["count_item"])) {
 //Count User cart item
 
 
+
 //Get Cart Item From Database to Dropdown menu
 if (isset($_POST["Common"])) {
 
@@ -216,7 +217,7 @@ if (isset($_POST["Common"])) {
 	$query = mysqli_query($con,$sql);
 	if (isset($_POST["getCartItem"])) {
 		//display cart item in dropdown menu
-		
+
 		if (mysqli_num_rows($query) > 0) {
 			$n=0;
 			while ($row=mysqli_fetch_array($query)) {
