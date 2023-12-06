@@ -278,7 +278,7 @@ if (isset($_POST["Common"])) {
 								<b class="net_total" style="font-size:20px;"> </b>
 					</div>';
 				if (!isset($_SESSION["uid"])) {
-					echo '<input type="submit" style="float:right;" name="login_user_with_product" class="btn btn-info btn-lg" value="Ready to Checkout" >
+					echo '<input type="submit" style="float:right;" name="login_user_with_product" class="btn btn-info btn-lg" value="Pronto para o Checkout" >
 							</form>';
 					
 				}else if(isset($_SESSION["uid"])){
