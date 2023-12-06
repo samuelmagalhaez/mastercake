@@ -219,8 +219,9 @@ if (isset($_POST["Common"])) {
 	if (isset($_POST["getCartItem"])) {
 		//display cart item in dropdown menu
 
-
 		
+
+
 
 		if (mysqli_num_rows($query) > 0) {
 			$n=0;
